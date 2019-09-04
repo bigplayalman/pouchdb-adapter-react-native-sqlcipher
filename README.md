@@ -63,7 +63,7 @@ import HttpPouch from 'pouchdb-adapter-http'
 import replication from '@craftzdog/pouchdb-replication-react-native'
 import mapreduce from 'pouchdb-mapreduce'
 
-import SQLite from 'react-native-sqlite-2'
+import SQLite from 'react-native-sqlcipher-2'
 import SQLiteAdapterFactory from 'pouchdb-adapter-react-native-sqlite'
 
 const SQLiteAdapter = SQLiteAdapterFactory(SQLite)
