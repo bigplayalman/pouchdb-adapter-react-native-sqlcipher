@@ -1,12 +1,12 @@
 {
-  "name": "pouchdb-adapter-react-native-sqlite",
-  "version": "2.0.0",
-  "description": "PouchDB adapter using ReactNative SQLite Plugin as its data store.",
+  "name": "pouchdb-adapter-react-native-sqlcipher",
+  "version": "1.0.0",
+  "description": "PouchDB adapter using ReactNative SQLCipher Plugin as its data store.",
   "main": "./lib/index.js",
   "keywords": [],
-  "author": "Takuya Matsuyama <hi@craftz.dog>",
+  "author": "Takuya Matsuyama <hi@craftz.dog>, Almas Barzhaxynov <contact@oomzie.com>",
   "license": "MIT",
-  "repository": "https://github.com/craftzdog/pouchdb-adapter-react-native-sqlite",
+  "repository": "https://github.com/bigplayalman/pouchdb-adapter-react-native-sqlcipher",
   "files": [
     "lib"
   ],
