@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "PouchDB adapter using ReactNative SQLCipher Plugin as its data store.",
   "main": "./lib/index.js",
-  "keywords": ["pouchdb, "pouchdb-adapter", "rxdb", "react-native", "sqlcipher"],
+  "keywords": ["pouchdb", "pouchdb-adapter", "rxdb", "react-native", "sqlcipher"],
   "author": "Takuya Matsuyama <hi@craftz.dog>, Almas Barzhaxynov <contact@oomzie.com>",
   "license": "MIT",
   "repository": "https://github.com/bigplayalman/pouchdb-adapter-react-native-sqlcipher",
