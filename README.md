@@ -88,7 +88,18 @@ function loadDB () {
   return new PouchDB('mydb.db', { adapter: 'react-native-sqlite', auth: {password: 'super secure password' })
 }
 ```
+### Use RxDB
+```js
+import RxDB from 'rxdb';
 
+RxDB.create({
+  name: 'mislestore',
+  adapter: 'react-native-sqlite',
+  multiInstance: false,
+  pouchSettings: {
+    auth: { password }
+});
+```
 ## Changelog
 - 1.0.0
   + Initial release
